@@ -1,8 +1,12 @@
-### Dimoco BiteGames store Markup project ###
+### BiteGames - [PL Orange] HTML for DIMOCO ###
 
 Markup project created by figma design.
 
+Figma link [url](https://www.figma.com/file/fPP8kqT2vGBnwqvHk3zlAI/Poland-Orange_Mind%2B?type=design&node-id=27-5923&mode=design&t=XXZFcTd4FeVwExXA-0 "Figma link")
+
 Demo 3g link [url](https://pw-int.github.io/bg-orange/ "Demo 3g link")
+
+Demo otp link [url](https://pw-int.github.io/bg-orange/otp.html "Demo otp link")
 
 
 ## Project structure ##
