@@ -101,7 +101,7 @@
   --bs-body-font-family: "Inter";
   --bs-body-font-size: 0.75rem;
   --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-line-height: 1;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #FFFFFF;
@@ -2334,7 +2334,7 @@ textarea.form-control-lg {
 
 .form-check {
   display: block;
-  min-height: 1.125rem;
+  min-height: 0.75rem;
   padding-right: 1.75em;
   margin-bottom: 0.125rem;
 }
@@ -2359,7 +2359,7 @@ textarea.form-control-lg {
   flex-shrink: 0;
   width: 1.25em;
   height: 1.25em;
-  margin-top: 0.125em;
+  margin-top: -0.125em;
   vertical-align: top;
   appearance: none;
   background-color: var(--bs-form-check-bg);
@@ -3884,7 +3884,7 @@ textarea.form-control-lg {
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-padding-y: 0.359375rem;
+  --bs-navbar-brand-padding-y: 0.40625rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 0.9375rem;
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
@@ -5411,7 +5411,7 @@ textarea.form-control-lg {
   --bs-modal-header-padding: 1rem 1rem;
   --bs-modal-header-border-color: var(--bs-border-color);
   --bs-modal-header-border-width: var(--bs-border-width);
-  --bs-modal-title-line-height: 1.5;
+  --bs-modal-title-line-height: 1;
   --bs-modal-footer-gap: 0.5rem;
   --bs-modal-footer-bg: ;
   --bs-modal-footer-border-color: var(--bs-border-color);
@@ -5705,7 +5705,7 @@ textarea.form-control-lg {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   text-align: right;
   text-align: start;
   text-decoration: none;
@@ -5807,7 +5807,7 @@ textarea.form-control-lg {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   text-align: right;
   text-align: start;
   text-decoration: none;
@@ -6208,7 +6208,7 @@ textarea.form-control-lg {
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
   --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
   --bs-offcanvas-transition: transform 0.3s ease-in-out;
-  --bs-offcanvas-title-line-height: 1.5;
+  --bs-offcanvas-title-line-height: 1;
 }
 
 @media (max-width: 575.98px) {
@@ -8297,7 +8297,7 @@ textarea.form-control-lg {
 }
 
 .lh-base {
-  line-height: 1.5 !important;
+  line-height: 1 !important;
 }
 
 .lh-lg {
@@ -11961,10 +11961,6 @@ textarea.form-control-lg {
   border-color: #FFFFFF;
 }
 
-.form-check-label {
-  line-height: 1.025;
-}
-
 .form-check-input:checked[type=checkbox] {
   --bs-form-check-bg-image: none;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEwIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjczNDM4IDQuNzA5MjZMMy45MTg3MSA2Ljg0OTlMOC42MTUwMiAxLjQ5ODI5IiBzdHJva2U9IiNGRjdBMDAiIHN0cm9rZS13aWR0aD0iMS41MjkwMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
@@ -12007,7 +12003,6 @@ textarea {
 
 p {
   margin-bottom: 0;
-  line-height: 1.25;
 }
 
 .main {
