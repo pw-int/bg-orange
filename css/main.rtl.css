@@ -98,7 +98,7 @@
   --bs-font-sans-serif: "Inter";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Inter";
   --bs-body-font-size: 0.75rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -751,7 +751,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 2rem;
+  --bs-gutter-x: 2.75rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -2127,7 +2127,7 @@ progress {
   width: 100%;
   padding: 0.82rem 1rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #818181;
   appearance: none;
@@ -2277,7 +2277,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 0.82rem 1rem 0.82rem 3rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #818181;
   appearance: none;
@@ -2666,7 +2666,7 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.82rem 1rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #FFFFFF;
   text-align: center;
@@ -5331,7 +5331,7 @@ textarea.form-control-lg {
   --bs-toast-zindex: 1090;
   --bs-toast-padding-x: 0.75rem;
   --bs-toast-padding-y: 0.5rem;
-  --bs-toast-spacing: 2rem;
+  --bs-toast-spacing: 2.75rem;
   --bs-toast-max-width: 350px;
   --bs-toast-font-size: 0.875rem;
   --bs-toast-color: ;
@@ -5702,7 +5702,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5804,7 +5804,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11985,7 +11985,6 @@ body {
   --bs-body-color: #303030;
   margin: 0;
   padding: 0;
-  font-family: " Inter", sans-serif;
 }
 
 a {
@@ -12025,7 +12024,7 @@ p {
 }
 .main .banner {
   position: relative;
-  height: 108vw;
+  height: 103vw;
 }
 @media (min-width: 576px) {
   .main .banner {
@@ -12064,7 +12063,7 @@ p {
   bottom: -1.5rem;
   left: 0;
   right: 0;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
 }
 .main .icon-style {
   background-color: #FFFFFF;
