@@ -43,7 +43,10 @@
                         <p class="mb-4 d-sm-block d-none"><span class="fw-bold">Playwing LTD</span> <br> <span class="fw-bold">Aktywuj dostęp do:</span> BiteGames 14,99 zł / co 7 dni</p>
                         <form method="get" action="pin.html" class="needs-validation" novalidate>
                             <p class="fw-bold fs-3 mb-2">Wpisz numer telefonu:</p>
-                            <input type="tel" minlength="9" maxlength="9" pattern="[0-9]*" class="form-control text-center rounded-end mb-3" aria-label="Enter Phone number" placeholder="XXX XXX XXX" required>
+                            <div class="input-group mb-3">
+                                <input type="tel" minlength="9" maxlength="9" pattern="[0-9]*" class="form-control text-center rounded-end valid-icon-input position-relative" aria-label="Enter Phone number" placeholder="XXX XXX XXX" required>
+                                <span class="valid-icon"></span>
+                            </div>
                             <div class="d-grid mb-2">
                                 <button type="submit" class="btn btn-warning">Dalej</button>
                             </div>
