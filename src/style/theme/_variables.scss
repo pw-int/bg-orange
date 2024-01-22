@@ -15,7 +15,7 @@ $black: #303030;
 $font-size-base: .75rem!default;
 $font-sizes: ( 1: 1rem, 2: .938rem, 3: .875rem, 4: .688rem);
 // buttons
-$btn-font-weight: bold!default;
+$btn-font-weight: 500!default;
 $btn-font-size: 1rem!default;
 $btn-padding-x: 2rem!default;
 $btn-padding-y: .658rem!default;
@@ -31,7 +31,7 @@ $input-bg: $ghost-white !default;
 $input-border-color: $yellow !default;
 $input-border-radius: .188rem !default;
 $input-padding-y: .875rem !default;
-$input-padding-x: .75rem !default;
+$input-padding-x: 1rem !default;
 $input-group-addon-color: $white !default;
 $input-group-addon-border-color: transparent !default;
 $form-feedback-invalid-color: #fd5732 !default;
